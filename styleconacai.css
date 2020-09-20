@@ -170,7 +170,26 @@ h3 {
   
 }
 
-.redes {
+.social {
     border-left: solid 1px #ffff;
-    height: 26vh;
+    
+}
+
+.social {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.social span {
+    display: block;
+}
+
+.social li {
+display: inline;
+}
+
+.iconitos {
+    color: white;
+    font-size: 2rem;
+   letter-spacing: 0.6rem;
 }

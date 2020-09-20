@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="styleconacai.css">
   <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;600;700&family=Montserrat:wght@500;600&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
 
   <title>Conacai test</title>
 </head>
@@ -135,7 +136,7 @@
        <img src="images/logo_argentina_unida.svg" class="arg-unida align-content-center" alt="argentina unida">
       </div>
 
-      <div class="col-lg-4 col-md-4 col-sm-12 d-flex pt-4 linea-contacto">
+      <div class="col-lg-4 col-md-4 col-sm-12 d-flex pt-4">
       <ul class="contacto pl-3 pt-3">
                      <span class="pb-5"> <p>CONTACTO</p></span>    
                      <li>
@@ -149,16 +150,38 @@
                       </li>
                            
                       <li>
-                      <address>contacto@enacom.gob.ar</address>
+                      contacto@enacom.gob.ar
                       </li>
                            
                 </ul>
       </div>
 
       
-      <div class="col-lg-4 col-md-4 col-sm-12 pt-4 d-flex">
-       <p class="pt-3 pl-3 redes">REDES SOCIALES</p>
+      <div class="col-lg-4 col-md-4 col-sm-12 d-flex pt-4 ">
        
+      <ul class="social pl-3 pt-3">
+                          <span class="pb-1"> <p>REDES SOCIALES</p> </span>    
+                           <li>
+                                <a href="#"><i class="iconitos fab fa-facebook-square"></i></a>
+                           </li>
+                          
+                           <li>
+                                <a href="#"><i class="iconitos fab fa-twitter-square"></i></a>
+                           </li>
+                            
+                           <li>
+                                <a href="#"><i class= "iconitos fab fa-google-plus-square"></i></a>
+                           </li>
+                           
+                           <li>
+                                <a href="#"><i class= "iconitos fab fa-youtube-square"></i></a>
+                           </li>
+                            
+                           <li>
+                                <a href="#"><i class= "iconitos fab fa-linkedin"></i></a>
+                          </li>
+                          
+                 </ul>
             
       </div>
     </div>
