@@ -1,0 +1,176 @@
+body {
+    background-color: #E32E2D;
+    color: #ffff;
+}
+
+/**HEADERS NAVBARS**/
+
+header .headerTop {
+    width: 100%;
+    text-align: left;
+    background-color: #2E2D2C;
+    height: 4.68rem;
+
+}
+
+.headerTop img {
+    margin-left: 5rem;
+    margin-top: 1.3rem;
+
+}
+
+.bg-indigo {
+    background-color: #4C2B7F;
+}
+
+.navbar {
+    height: 3.50rem;
+}
+
+.navbar-nav>li {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    font-weight: 500;
+    color: #ffff;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #4C2B7F;
+    /*solucion a responsive transparente*/
+}
+
+.navbar-nav>li:hover {
+    /*border-bottom: 1px white solid; */
+    padding-bottom: 0px;
+    font-weight: 600;
+    text-decoration: underline;
+
+}
+
+
+
+/** LOGO CONACAI **/
+.portada-novedades {
+    background: url(images/bg_home.png), no-repeat, top;
+    background-size: 100%;
+}
+
+.logo-portada {
+
+    width: 55vw;
+
+}
+
+.logo-portada img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/** PORTADA NOVEDADES**/
+
+/*.portada-novedades {
+   margin-top: 7.5rem;
+   height: 100vh;
+}*/
+
+/*
+.carousel-novedades {
+    width: 50rem;
+    margin: auto;
+}
+*/
+
+
+
+
+.carousel-novedades img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+
+.titulo-portada {
+    font-weight: 600;
+    font-family: 'Encode Sans', sans-serif;
+}
+
+.extracto-portada {
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/** VIDEO LINEA 102**/
+
+.imagen-fondo {
+    background: url(images/bg_pag2.svg), no-repeat, top;
+    background-size: 100%;
+}
+
+.video-portada {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.recuadro {
+    background: #09AEE4;
+}
+
+.recuadro h2 {
+    font-weight: 700;
+    font-family: 'Encode Sans', sans-serif;
+}
+
+.recuadro p {
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+/** NOTICIAS **/
+
+.noticias h2 {
+    font-weight: 700;
+    font-family: 'Encode Sans', sans-serif;
+}
+
+.cardcolor {
+    background: #C54592;
+    border: none;
+}
+
+h3 {
+    color: white;
+    font-size: 1.3rem !important;
+    font-family: 'Encode Sans', sans-serif;
+}
+
+.no-underline:hover {
+    text-decoration: none;
+}
+
+
+
+/** FOOTER **/
+
+.footer-index {
+    background-color: #4C2B7F;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+}
+
+
+
+.contacto {
+   list-style-type: none;
+   border-left: solid 1px #ffff;
+  
+}
+
+.redes {
+    border-left: solid 1px #ffff;
+    height: 26vh;
+}
