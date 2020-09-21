@@ -40,6 +40,10 @@ header .headerTop {
     /*solucion a responsive transparente*/
 }
 
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: #ffff;
+}/*solucion en wordpress a que me agarre el color blanco los links*/
+
 .navbar-nav>li:hover {
     padding-bottom: 0px;
     font-weight: 600;
