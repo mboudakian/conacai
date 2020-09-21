@@ -170,3 +170,32 @@ display: inline;
     font-size: 2rem;
    letter-spacing: 0.6rem;
 }
+
+
+
+
+
+/*PAGINA INSTITUCIONAL*/
+
+.institucional {
+    background-color: #4C2B7F;
+}
+
+.fondo-institucionales {
+    background: url(images/bg_page.svg), no-repeat, top;
+    background-size: 100%;
+}
+
+.texto-institucionales {
+    font-family: 'Encode Sans', sans-serif;
+    font-weight: 600;
+}
+
+.texto-institucionales h2 {
+    font-weight: bolder;
+}
+
+.link-turquesa {
+    text-decoration: none;
+    color:  #09AEE4;
+}
