@@ -32,10 +32,10 @@
       <div id="videolinea">
         <div class="container">
           <div class="row">
-            <div class="col-sm-9 col-md-6">
+            <div class="col-sm-9 col-md-12 col-lg-6">
               <iframe width="100%" height="315" src="https://www.youtube.com/embed/BmS_a3lLXJU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <div class="col-sm-9 col-md-6 recuadro h-100 py-1">
+            <div class="col-sm-9 col-md-12 col-lg-6 recuadro h-100 py-1">
               <h2 class="py-3">Línea 102 de las chicas y chicos
                 las 24 horas los 365 días del año.</h2>
               <p class="py-3">La línea 102 es un servicio telefónico gratuito
@@ -62,8 +62,7 @@
             <h2 class="d-block mb-4">Noticias de interés</h2>
           </div>
           <?php
-        if (have_posts()) :
-            while (have_posts()) : the_post(); ?>
+        $la_query = new WP_Query("category_name=noticias&showposts=4"); while($la_query->have_posts()) : $la_query->the_post(); ?>
           
 
           <article class="col-sm-12 col-md-6 col-lg-3 col-xs-12 mb-4">
@@ -78,7 +77,7 @@
               </div>
             </div>
           </article>
-          <?php  endwhile; endif;?>
+          <?php  endwhile; ?>
 
         </div>
       </div>

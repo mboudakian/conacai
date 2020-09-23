@@ -7,7 +7,7 @@ Template name: Institucional
 get_header(); ?>
 <!-- contenido de la pagina -->
 
-<section class="mt-5">
+<section class="mt-5 bg-indigo">
         <div class="container-fluid">
                 <div class="row">
                         <div class="col-7">

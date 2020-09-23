@@ -42,13 +42,14 @@ header .headerTop {
 
 .navbar-expand-lg .navbar-nav .nav-link {
     color: #ffff;
+    
 }/*solucion en wordpress a que me agarre el color blanco los links*/
 
-.navbar-nav>li:hover {
+.navbar-expand-lg .navbar-nav .nav-link:hover {
     padding-bottom: 0px;
     font-weight: 600;
     text-decoration: underline;
-
+    color: #ffff;
 }
 
 
@@ -181,9 +182,6 @@ display: inline;
 
 /*PAGINA INSTITUCIONAL*/
 
-.institucional {
-    background-color: #4C2B7F;
-}
 
 .fondo-institucionales {
     background: url(images/bg_page.svg), no-repeat, top;

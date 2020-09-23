@@ -18,8 +18,7 @@ if(function_exists(('register_nav_menus'))){
 
     if ( function_exists( 'add_theme_support' ) ) {
         add_theme_support( 'post-thumbnails' );
-        set_post_thumbnail_size( 210, 180, true ); // default Featured Image dimensions (cropped)
-        add_image_size('noticias-thumbnail', 210, 180, true); // destacada list thumbnails.
+        add_image_size('noticias-thumbnail', 9999, 200); // imagenes de noticias cortadas (ancho, alto)
         // additional image sizes
         // delete the next line if you do not need additional image sizes
      }
