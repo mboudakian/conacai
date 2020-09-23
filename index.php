@@ -8,9 +8,53 @@
     <div class="logo-portada pt-4 pl-4 pb-3 col-sm-12">
       <img class="img-fluid mt-4" src="<?php bloginfo('template_url');?>/images/conacai-logo.PNG" alt="logo conacai">
     </div>
+
+<!-- CAROUSEL -->
+<div class="container col-lg-8 col-md-7 col-sm-12">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="<?php bloginfo('template_url');?>/images/portada.PNG" alt="First slide">
+      <div class="carousel-caption d-block">
+    <h2 class="titulo-portada text-left">Caption de Prueba</h2>
+    <p class="extracto-portada text-left">Caption de Prueba</p>
+  </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="<?php bloginfo('template_url');?>/images/portada.PNG" alt="Second slide">
+      <div class="carousel-caption  d-block">
+    <h2 class="titulo-portada text-left">Caption de Prueba</h2>
+    <p class="extracto-portada text-left">Caption de Prueba</p>
+  </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="<?php bloginfo('template_url');?>/images/portada.PNG" alt="Third slide">
+      <div class="carousel-caption  d-block">
+    <h2 class="titulo-portada text-left">Caption de Prueba</h2>
+    <p class="extracto-portada text-left">Caption de Prueba</p>
+  </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+
+
+
+   <!-- 
     <div class="container">
-
-
       <div class="carousel-novedades">
         <img class="img-fluid mx-auto d-block" src="<?php bloginfo('template_url');?>/images/portada.PNG" alt="imagen de portada">
         <div class="row">
@@ -23,8 +67,8 @@
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </div>-->
+  </section> 
 
 
   <div class="imagen-fondo">

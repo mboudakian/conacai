@@ -18,7 +18,8 @@ if(function_exists(('register_nav_menus'))){
 
     if ( function_exists( 'add_theme_support' ) ) {
         add_theme_support( 'post-thumbnails' );
-        add_image_size('noticias-thumbnail', 9999, 200); // imagenes de noticias cortadas (ancho, alto)
+        add_image_size('noticias-thumbnail', 9999, 200);
+        add_image_size('slide-novedades', 868, 414, true); // imagenes de noticias cortadas (ancho, alto)
         // additional image sizes
         // delete the next line if you do not need additional image sizes
      }
