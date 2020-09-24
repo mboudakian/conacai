@@ -2,14 +2,14 @@
 
 
   <footer class="footer-index">
-    <div class="container">
+    <div class="container py-4 w-100">
       <div class="row">
 
-        <div class="col-lg-4 col-md-4 col-sm-12 d-flex">
-          <img src="<?php bloginfo('template_url');?>/images/logo_argentina_unida.svg" class="arg-unida align-content-center" alt="argentina unida">
+        <div class="col-lg-4 col-md-4 col-sm-12 pt-lg-5">
+          <img src="<?php bloginfo('template_url');?>/images/logo_argentina_unida.svg" class="arg-unida d-block mx-auto mt-lg-4 mt-md-4 img-fluid" alt="argentina unida">
         </div>
 
-        <div class="col-lg-4 col-md-4 col-sm-12 d-flex pt-3">
+        <div class="col-lg-4 col-md-4 col-sm-12 pt-3">
           <ul class="contacto pl-3 pt-3">
             <span class="pb-5">
               <p>CONTACTO</p>
@@ -27,7 +27,7 @@
             </li>
 
             <li>
-            <i class="contacto-icon fas fa-envelope"></i> contacto@enacom.gob.ar
+            <i class="contacto-icon fas fa-envelope"></i> <a class="mail-enlace" href="mailto:contacto@enacom.com">contacto@enacom.gob.ar</a>
             </li>
 
           </ul>

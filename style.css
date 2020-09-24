@@ -60,6 +60,7 @@ header .headerTop {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    height: 110vh;
 }
 
 .logo-portada {
@@ -76,25 +77,63 @@ header .headerTop {
     max-height: 100%;
 } */
 
-.titulo-portada {
+
+
+/***************************estilos carousel***************************/
+
+
+#carouselPrincipal.carousel {
+    height:100vh;
+    max-height:25rem;
+    width: 100%;
+    
+}
+
+.carousel-inner { padding-bottom:15rem; } /*PRIMORDIAL para que se vea el texto del slide por debajo de la imagen*/
+
+#carouselPrincipal.carousel .carousel-item {
+    height:100vh;
+    max-height:25rem;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: cover;
+    position: relative;
+   
+ 
+}
+
+#carouselPrincipal.carousel .carousel-item .carousel-caption {
+    position: relative;
+    left: 0rem;
+    text-align: left;
+    
+    top: 25rem;
+}
+
+#carouselPrincipal.carousel .carousel-item .carousel-caption h2 {
     font-weight: 600;
     font-family: 'Encode Sans', sans-serif;
 }
 
-.extracto-portada {
+#carouselPrincipal.carousel .carousel-item .carousel-caption p {
     font-weight: 500;
-    font-size: 1.5rem;
-    line-height: 1.5rem;
-
+    font-size: 1.3rem;
+    line-height: 1.4rem;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+#carouselPrincipal.carousel .carousel-item .carousel-caption a {
+    color:#ffffff;
+    
     font-family: 'Roboto', sans-serif;
 }
 
-.carousel-caption {
-    position: relative;
-    left: 0rem;
+.carousel-control-next, .carousel-control-prev {
+    top:60px;
 }
 
 
+/********************************************************/
 
 /** VIDEO LINEA 102**/
 
@@ -185,7 +224,14 @@ display: inline;
    letter-spacing: 0.6rem;
 }
 
+.mail-enlace {
+    text-decoration: none;
+    color: #ffff;
+}
 
+.mail-enlace:hover {
+    color: #09AEE4 ;
+}
 
 
 
