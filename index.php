@@ -16,7 +16,7 @@
   <?php
 		$args = array(
 			'showposts'=>'5',
-			'category_name'=>'novedades'
+			'category_name'=>'slider'
 		);
 		$the_query = new WP_Query($args);
 		if ( have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post();
@@ -37,9 +37,7 @@
   </div>
     </div>
     <?php endwhile; endif; ?>
-   
   </div>
-
 
   <?php if ( have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
   <?php if ( $the_query->current_post == 1 ): ?>
@@ -57,8 +55,6 @@
 </div>
 
 
-
-
   </section> 
 
 
@@ -67,10 +63,11 @@
       <div id="videolinea">
         <div class="container">
           <div class="row">
-            <div class="col-sm-9 col-md-12 col-lg-6">
-              <iframe width="100%" height="315" src="https://www.youtube.com/embed/s8k5GfBQmM8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="col-sm-12 col-md-12 col-lg-6">
+              <iframe class="videito" width="100%" height="315" src="https://www.youtube.com/embed/s8k5GfBQmM8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <div class="col-sm-9 col-md-12 col-lg-6 recuadro h-100 py-1">
+            <div class="col-sm-12 col-md-12 col-lg-6 recuadro h-100 py-1">
+              
               <h2 class="py-3">Línea 102 de las chicas y chicos
                 las 24 horas los 365 días del año.</h2>
               <p class="py-3">La línea 102 es un servicio telefónico gratuito
