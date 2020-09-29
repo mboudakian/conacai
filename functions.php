@@ -20,7 +20,7 @@ if(function_exists(('register_nav_menus'))){
         add_theme_support( 'post-thumbnails' );
         add_image_size('noticias-thumbnail', 250, 250, true); // imagenes de noticias cortadas (ancho, alto)
         add_image_size('slide-novedades', 868, 414, true); 
-        add_image_size('imagen-categoria', 300, 300, true);
+        add_image_size('imagen-categoria', 475, 310, true);
         add_image_size('noticia-interior', 9999, 475);
        
         // additional image sizes

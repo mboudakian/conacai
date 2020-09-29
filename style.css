@@ -90,7 +90,7 @@ header .headerTop {
     max-height:25rem;
     width: 100%;
     background-repeat: no-repeat;
-    background-position: cover;
+    background-position: center;
     position: relative;
    
  
@@ -234,7 +234,7 @@ display: inline;
 
 .fondo-institucionales {
     background: url(images/bg_page.svg);
-        background-size: cover;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -266,7 +266,23 @@ display: inline;
     font-weight: 600;
 }
 
+/* PAGINACION */
+.paginacion {
+    display: block;
+    max-width:440px;
+    margin:auto;
+    clear:both;
+    text-align: center
+}
 
+.paginacion a {
+    display: inline-block;
+    background-color: #ffffff;
+    color:#09AEE4;
+    margin:0.25em;
+    padding:4px 8px;
+    font-weight:700;
+}
 
 /*********************MEDIA QUERIES*****************************/
 
