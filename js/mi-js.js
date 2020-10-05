@@ -1,4 +1,4 @@
-
+/*COMPORTAMIENTO SCROLL LOGO*/ 
 
 window.onscroll = function() {myFunction()};
 

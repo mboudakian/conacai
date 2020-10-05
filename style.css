@@ -17,10 +17,10 @@ header .headerTop {
     margin-left: 5rem;
     margin-top: 1.3rem;
 }
-
+/*
 .logo-oculto {
     display: none;
-}
+}*/
 
 .bg-indigo {
     background-color: #4C2B7F;
@@ -290,4 +290,11 @@ display: inline;
  .videito {
      height: 379px; /*solo valido para actual recuadro*/
  }
+}
+
+/*logo argentina unida*/
+@media screen and (max-width: 990px) and (min-width: 768px){
+    .arg-unida {
+     padding-top: 4rem;
+    }
 }
