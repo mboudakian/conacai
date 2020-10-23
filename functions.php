@@ -27,4 +27,11 @@ if(function_exists(('register_nav_menus'))){
         // delete the next line if you do not need additional image sizes
      }
      
+     /**
+ * Register Custom Navigation Walker (Navwalker)
+ */
+function register_navwalker(){
+	require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
+}
+add_action( 'after_setup_theme', 'register_navwalker' );
      

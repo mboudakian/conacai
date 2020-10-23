@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <?php wp_head(); ?>
    <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/bootstrap.min.css">
   <!-- Mi CSS-->
@@ -34,11 +35,14 @@
       
           <?php wp_nav_menu(array(
                 'theme_location' => 'principal',
+                'depth' => 2, //1 = no dropdown, 2 = con dropdown
                 'container' => 'div',
                 'container_class' => 'collapse navbar-collapse justify-content-center',
                 'container_id' => 'navbarNav',
                 'items_wrap' => '<ul class="navbar-nav">%3$s</ul>',
-                'menu_class' => 'nav-item'
+                'menu_class' => 'nav-item',
+                'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
+                'walker'          => new WP_Bootstrap_Navwalker(),
             )); ?>
             
     </nav>
